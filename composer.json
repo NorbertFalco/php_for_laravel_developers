@@ -1,0 +1,17 @@
+{
+    "name": "alumne/php_for_laravel_developers",
+    "description": "blabla",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Norbert Falcó",
+            "email": "norbertfalco@iesebre.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,4 +1,7 @@
 <?php
+
+use App\Models\Task;
+
 function greet() {
 
     $name = htmlspecialchars($_GET['name']);
@@ -13,25 +16,12 @@ function dd($xivato)
     die();
 }
 
-function connectDB($config) {
-    try {
-        $pdo = new PDO(
-            $config['database']['databasetype'] . ':host=' . $config['database']['host'] . ';dbname=' . $config['database']['name'],
-            $config['database']['user'],
-            $config['database']['password']);
-        return $pdo;
-
-    } catch (\PDOException $e) {
-        echo 'Error de connexió a la base de dades';
-    }
-}
-
 function fetchAllTasks($dbh){
 
     $statement = $dbh->prepare('SELECT * FROM tasks');
 
     $statement->execute();
 
-    return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
+    return $statement->fetchAll(PDO::FETCH_CLASS, Task::class);
 
 }
