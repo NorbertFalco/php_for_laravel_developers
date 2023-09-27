@@ -1,6 +1,6 @@
 <?php
 
-$config = [
+return [
     'database' => [
         'user' => 'debian-sys-maint',
         'password' => 'lUQ3q3WchWmvwo8l',
@@ -9,5 +9,3 @@ $config = [
         'name' => 'phplaraveldevs',
     ]
 ];
-
-

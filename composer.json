@@ -13,5 +13,7 @@
             "email": "norbertfalco@iesebre.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-pdo": "*"
+    }
 }
