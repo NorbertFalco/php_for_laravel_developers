@@ -7,3 +7,4 @@
   autoloads i no necessirar requireds. Explicat com funcionen els namespaces a
   PHP.
 - V0.6: Container -> Implementar D de SOLID Dependency Inversion Principle -> Inverter Container -> APP
+- V0.7: Utilitzar paquets amb composer. Utilitzar .env dotenv
