@@ -41,6 +41,6 @@
 <img src="https://images.unsplash.com/photo-1514908182826-bef1b9513694?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Funny Cat">
 <h1>404 Not Found</h1>
 <p>Patrolling the Mojave Almost Makes You Wish For a Nuclear Winter. But hey, you can always go back home:</p>
-<a href="/resources/views/index.blade.php" class="home-link">Go back to New Vegas</a>
+<a href="/" class="home-link">Go back to New Vegas</a>
 </body>
 </html>
