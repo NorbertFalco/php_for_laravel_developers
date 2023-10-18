@@ -119,5 +119,3 @@
 
 <?php require '../resources/views/layout/footer.blade.php'; ?>
 
-
-
